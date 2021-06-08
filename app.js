@@ -2,7 +2,7 @@ var Ping = require('./lib/ping'),
     websites = [
         {
             url: 'https://retro-weather-app.herokuapp.com/',
-            timeout: 1
+            timeout: 0.01 //! change elapsed time to 1 to send request after 1 minute
         },
     ],
     monitors = [];
